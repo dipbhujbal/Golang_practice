@@ -1,0 +1,17 @@
+Every piece of Go code exists inside a package, and every Go program must have
+a main package with a main() function which serves as the program’s entry point,
+that is, the function that is executed first
+
+
+
+Go functions and methods are defined using the func keyword. The main package’s main() function always has the same signature—it takes no arguments
+and returns nothing. When main.main() finishes the program willterminate and
+return 0 to the operating system
+
+
+
+The reader may have noticed that the program has no semicolons, that the imports are not comma-separated, and that the if statement’s condition does not
+require parentheses. In Go, blocks, including function bodies and control structure bodies (e.g.,for if statements and for for loops), are delimited using braces.
+Indentation is used purely to improve human readability. Technically, Go statements are separated by semicolons, but these are put in by the compiler, so we
+don’t have to use them ourselves unless we want to put multiple statements on
+the same line. No semicolons and fewer commas and parentheses give Go programs a lighter look and require less typing
